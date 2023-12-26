@@ -1,0 +1,16 @@
+{
+    "name": "tfjs-playground",
+    "workspaces": [
+        "apps/*"
+    ],
+    "license": "MIT",
+    "private": true,
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.3.0"
+    }
+}
